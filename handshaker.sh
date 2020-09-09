@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#felipesi - 2020
+#felipesi - 2019
 #tested on kali & parrot os
 
 sudo systemctl is-active --quiet network-manager.service || { sudo systemctl restart network-manager.service && sleep 15; }
